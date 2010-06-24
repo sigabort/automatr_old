@@ -1,7 +1,7 @@
 source 'http://rubygems.org'
 
 ## Bundle edge rails:
-gem "rails",  :git => "git://github.com/rails/rails.git"
+#gem "rails",  :git => "git://github.com/rails/rails.git"
 gem "sqlite3-ruby"
 
 group :test do
