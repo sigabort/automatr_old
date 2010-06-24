@@ -24,4 +24,9 @@ Rspec.configure do |config|
   # examples within a transaction, comment the following line or assign false
   # instead of true.
   config.use_transactional_fixtures = true
+  
+  def rand_str(length = 20)
+    (('a'..'z').to_a + ('A'..'Z').to_a + (0..9).to_a).shuffle[0..length].join
+  end
+  
 end
