@@ -7,6 +7,7 @@ gem "sqlite3-ruby"
 group :test do
   gem "rspec"
   gem "rspec-rails",      ">= 2.0.0.beta"
+  gem 'spork'
   gem "machinist",        :git => "git://github.com/notahat/machinist.git"
   gem "faker"
   gem "ZenTest"
